@@ -36,6 +36,8 @@ config :hexpm, Hexpm.RepoBase,
   priv: "priv/repo",
   migration_timestamps: [type: :utc_datetime_usec]
 
+config :hexpm, HexpmWeb.Gettext, default_locale: "es"
+
 config :sasl, sasl_error_logger: false
 
 config :hexpm, Hexpm.Emails.Mailer, adapter: Hexpm.Emails.Bamboo.SESAdapter
