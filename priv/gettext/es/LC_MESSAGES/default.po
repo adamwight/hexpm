@@ -1,0 +1,118 @@
+## "msgid"s in this file come from POT (.pot) files.
+##
+## Do not add, change, or remove "msgid"s manually here as
+## they're tied to the ones in the corresponding POT file
+## (with the same domain).
+##
+## Use "mix gettext.extract --merge" or "mix gettext.merge"
+## to merge POT files into PO files.
+msgid ""
+msgstr ""
+"Language: es\n"
+"Plural-Forms: nplurals=2\n"
+
+#, elixir-format, ex-autogen
+#: lib/hexpm_web/templates/page/index.html.eex:164
+msgid "%{n} <br> downloads <br> all time"
+msgstr "%{n} <br> descargas <br> en todo el tiempo"
+
+#, elixir-format, ex-autogen
+#: lib/hexpm_web/templates/page/index.html.eex:157
+msgid "%{n} <br> downloads <br> last 7 days"
+msgstr "%{n} <br> descargas <br> en la última semana"
+
+#, elixir-format, ex-autogen
+#: lib/hexpm_web/templates/page/index.html.eex:150
+msgid "%{n} <br> downloads <br> yesterday"
+msgstr "%{n} <br> descargas <br> ayer"
+
+#, elixir-format, ex-autogen
+#: lib/hexpm_web/templates/page/index.html.eex:143
+msgid "%{n} <br> package <br> versions"
+msgstr "%{n} <br> versiones <br> del software"
+
+#, elixir-format, ex-autogen
+#: lib/hexpm_web/templates/page/index.html.eex:136
+msgid "%{n} <br> packages <br> available"
+msgstr "%{n} <br> versiones <br> disponibles"
+
+#, elixir-format, ex-autogen
+#: lib/hexpm_web/templates/page/index.html.eex:97
+msgid "<a href=\"%{signup_url}\">Create an account</a> and follow the\n<a href=\"%{publish_docs_url}\">publishing guide</a>. Your package\nwill be immediately available to all Elixir and Erlang users and the documentation will\nbe available on <a href=\"https://hexdocs.pm\">HexDocs</a>.\n"
+msgstr "<a href=\"%{signup_url}\">Cree una cuenta</a> y siga la <a href=\"%{publish_docs_url}\">guía de publicación</a>. Su paquete estará inmediatamente disponible para todos los usuarios de Elixir y Erlang y la documentación estará disponible en <a href=\"https://hexdocs.pm\">HexDocs</a>."
+
+#, elixir-format, ex-autogen
+#: lib/hexpm_web/templates/page/index.html.eex:57
+msgid "Download <a href=\"https://s3.amazonaws.com/rebar3/rebar3\">rebar3</a>, put it in your <code>PATH</code> and give it executable permissions.\nNow you can specify Hex dependencies in your rebar.config like <code>{deps, [hackney]}</code>.\n"
+msgstr "Descarga <a href=\"https://s3.amazonaws.com/rebar3/rebar3\">rebar3</a>, ponlo en tu PATH y dale permisos de ejecución. Ahora puedes especificar las dependencias de Hex en tu rebar.config como <code>{deps, [hackney]}</code>."
+
+#, elixir-format, ex-autogen
+#: lib/hexpm_web/templates/page/index.html.eex:78
+msgid "Fetch dependencies from Hex without creating an account.  Hex is\nusable out of the box in Elixir with <a href=\"%{mix_url}\">Mix</a>\nand in Erlang with <a href=\"%{rebar_url}\">Rebar3</a>). Check our <a\nhref=\"%{faq_url}\">FAQ</a> for commonly asked questions.\n"
+msgstr "Obtenga dependencias de Hex sin crear una cuenta. Hex es utilizable fuera de la caja en Elixir con <a href=\"%{mix_url}\">Mix</a> y en Erlang con <a href=\"%{rebar_url}\">Rebar3</a>). Consulta nuestro <a\nhref=\"%{faq_url}\">preguntas frecuentes</a>."
+
+#, elixir-format, ex-autogen
+#: lib/hexpm_web/templates/page/index.html.eex:12
+#: lib/hexpm_web/templates/page/index.html.eex:14
+msgid "Find packages"
+msgstr "Buscar paquetes"
+
+#, elixir-format, ex-autogen
+#: lib/hexpm_web/templates/page/index.html.eex:75
+msgid "Getting started"
+msgstr "Cómo empezar"
+
+#, elixir-format, ex-autogen
+#: lib/hexpm_web/templates/page/index.html.eex:177
+msgid "Most Downloaded"
+msgstr "Lo más descargado"
+
+#, elixir-format, ex-autogen
+#: lib/hexpm_web/templates/page/index.html.eex:188
+msgid "New Packages"
+msgstr "Nuevos paquetes"
+
+#, elixir-format, ex-autogen
+#: lib/hexpm_web/templates/page/index.html.eex:112
+msgid "Private packages"
+msgstr "Paquetes privados"
+
+#, elixir-format, ex-autogen
+#: lib/hexpm_web/templates/page/index.html.eex:94
+msgid "Publish packages"
+msgstr "Publicar paquetes"
+
+#, elixir-format, ex-autogen
+#: lib/hexpm_web/templates/page/index.html.eex:115
+msgid "Publish private packages by <a href=\"%{new_org_url}\">creating an\norganization</a>.  Your private packages will get the same features as\npublic packages such as fast dependency fetching, HexDocs, and run on\nthe same reliable infrastructure that serves millions of packages\ndaily. See our <a href=\"%{pricing_url}\">pricing page</a> for more details.\n"
+msgstr "Publica paquetes privados <a href=\"%{new_org_url}\">creando una organización</a>. Sus paquetes privados tendrán las mismas características que los paquetes públicos, como la obtención rápida de dependencias y HexDocs, y se ejecutarán en la misma infraestructura fiable que sirve a millones de paquetes diariamente. Consulte nuestra <a href=\"%{pricing_url}\">página de precios</a> para obtener más detalles."
+
+#, elixir-format, ex-autogen
+#: lib/hexpm_web/templates/page/index.html.eex:199
+msgid "Recently Updated"
+msgstr "Actualizado recientemente"
+
+#, elixir-format, ex-autogen
+#: lib/hexpm_web/templates/page/index.html.eex:18
+msgid "Search"
+msgstr "Buscar"
+
+#, elixir-format, ex-autogen
+#: lib/hexpm_web/templates/page/index.html.eex:38
+msgid "Specify your Mix dependencies as two-item tuples like <code>{:plug, \"~> 1.1.0\"}</code>\nin your dependency list, Elixir will ask if you want to install Hex\nif you haven't already.\n"
+msgstr "Indique sus dependencias de Mix como tuplas de dos elementos como <code>{:plug, \"~> 1.1.0\"}</code> en su lista de dependencias, Elixir le preguntará si desea instalar Hex si aún no lo ha hecho."
+
+#, elixir-format, ex-autogen
+#: lib/hexpm_web/templates/page/index.html.eex:4
+msgid "The package manager for the Erlang ecosystem"
+msgstr "El repositorio de paquetes del ecosistema Erlang"
+
+#, elixir-format, ex-autogen
+#: lib/hexpm_web/templates/page/index.html.eex:36
+msgid "Using with Elixir"
+msgstr "Cómo usar con Elixir"
+
+#, elixir-format, ex-autogen
+#: lib/hexpm_web/templates/page/index.html.eex:55
+msgid "Using with Erlang"
+msgstr "Cómo usar con Erlang"
