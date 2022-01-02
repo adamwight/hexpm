@@ -62,6 +62,8 @@ defmodule HexpmWeb do
       alias HexpmWeb.{Endpoint, Router}
       alias HexpmWeb.Router.Helpers, as: Routes
 
+      import HexpmWeb.Gettext
+
       use Hexpm.Shared
     end
   end

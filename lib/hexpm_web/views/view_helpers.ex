@@ -226,6 +226,18 @@ defmodule HexpmWeb.ViewHelpers do
     text
   end
 
+  # TODO: Rely on CLDR number formatting.
+  def wrap_number(number) do
+    """
+    <span class="count-info wrap">
+      #{human_number_space(number, 5)}
+    </span>
+    <span class="count-info no-wrap">
+      #{human_number_space(number)}
+    </span>
+    """
+  end
+
   def human_number_space(0, _max), do: "0"
 
   def human_number_space(int, max) when is_integer(int) do
